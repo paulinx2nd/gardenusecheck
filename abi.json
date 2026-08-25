@@ -1,0 +1,177 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "can_repeat_family": {
+      "params": [
+        [
+          "plot_id",
+          "string"
+        ],
+        [
+          "crop_family",
+          "string"
+        ],
+        [
+          "season",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "bool"
+    },
+    "challenge_proposal": {
+      "params": [
+        [
+          "proposal_id",
+          "string"
+        ],
+        [
+          "counter_evidence",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "close_season": {
+      "params": [
+        [
+          "proposal_id",
+          "string"
+        ],
+        [
+          "outcome",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "commit_planting": {
+      "params": [
+        [
+          "proposal_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "create_plot": {
+      "params": [
+        [
+          "plot_key",
+          "string"
+        ],
+        [
+          "plot_context",
+          "string"
+        ],
+        [
+          "rotation_policy",
+          "string"
+        ],
+        [
+          "same_family_gap",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "evaluate_planting": {
+      "params": [
+        [
+          "plot_id",
+          "string"
+        ],
+        [
+          "proposal_key",
+          "string"
+        ],
+        [
+          "season",
+          "int"
+        ],
+        [
+          "crop_family",
+          "string"
+        ],
+        [
+          "planting_plan",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_history": {
+      "params": [
+        [
+          "plot_id",
+          "string"
+        ],
+        [
+          "index",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_history_count": {
+      "params": [
+        [
+          "plot_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "get_plot": {
+      "params": [
+        [
+          "plot_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_proposal": {
+      "params": [
+        [
+          "proposal_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    }
+  }
+}

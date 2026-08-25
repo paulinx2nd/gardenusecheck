@@ -1,0 +1,144 @@
+{
+  "contract": {
+    "abi_sha256": "cd1717c029bc72c4aa97fbe72cfb8edfd0731a7976228e6dc380795157713893",
+    "address": "0x8670E459e7405ed172034a6aDa20Fb4CCDe8aE6B",
+    "deployed_source_sha256_normalized": "049e0e0492e8a3b58655ee5d3ccfa716052741915f3e193a8534c8e5f42c7163",
+    "deployment_tx": "0xd75cb5eedf2175f803484442d8811bc714b0bde9635b2c5a3e2443bfce724671",
+    "execution_result": "SUCCESS",
+    "explorer_base": "https://genlayer-explorer.vercel.app",
+    "name": "GardenUseCheck",
+    "schema_method_count": 10,
+    "schema_readback": true,
+    "source_exact_after_line_ending_normalization": true,
+    "source_sha256": "049e0e0492e8a3b58655ee5d3ccfa716052741915f3e193a8534c8e5f42c7163",
+    "status": "FINALIZED"
+  },
+  "network": {
+    "chain_id": 61999,
+    "explorer": "https://genlayer-explorer.vercel.app",
+    "initial_validators": 5,
+    "name": "studionet",
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": "genlayer-intelligent-contract-deployment/v2",
+  "smoke": {
+    "bound_readback": true,
+    "decision_sha256": "sha256:48a362abdf85b4044ba920ce2d8ad9468524431fe78888c68a6f783e0193c0d6",
+    "history_count": 1,
+    "plot_id": "0x90f2ea47dcc355776fdf0ee1e723c553ca59abc6:PLOT-A",
+    "proposal_id": "0x90f2ea47dcc355776fdf0ee1e723c553ca59abc6:PLOT-A:SPRING",
+    "state": "CLOSED",
+    "type": "history_bound_rotation_commit_and_close",
+    "verdict": "SUITABLE"
+  },
+  "transactions": {
+    "close_season": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x5c6bc46db9cec010fa088d38b8741ece5a7a173ead9b24786c2fae1ce83ee20e",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "commit_planting": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x4892f52914a9d8a735660fd386251a8c86207f670631fa4bf66a4c3156ea39ac",
+      "validator_votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "create_plot": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x91114815e7032780b1cf182c437850687e293f31b08cad1bba100107c1051b7d",
+      "validator_votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "deploy": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0xd75cb5eedf2175f803484442d8811bc714b0bde9635b2c5a3e2443bfce724671",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "evaluate_planting": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x5731cbb46401a2afb271549fd31b5faea789f373d72a0f7b484e15bd39b27323",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "DISAGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    }
+  },
+  "verification": {
+    "all_executions_succeeded": true,
+    "all_transactions_finalized": true,
+    "bound_state_readback": true,
+    "local_direct_tests_passed": true,
+    "local_five_validator_test_passed": true,
+    "pinned_dependency_audit_no_known_vulnerabilities": true,
+    "schema_readback": true,
+    "source_readback_exact": true,
+    "wallet_isolation_overlap_count": 0
+  },
+  "verified_at": "2026-08-25T11:35:56Z",
+  "wallet": {
+    "dedicated_external_encrypted_keystores": true,
+    "deployer": "0x90F2ea47DcC355776Fdf0EE1e723c553CA59aBC6",
+    "other_owner_wallet_reused": false,
+    "owner": "paulinx2nd",
+    "private_material_in_repository": false,
+    "public_test_roles": {
+      "role_a": "0x79F684a276F792B1BDf8e3232a6C79B1B7129362",
+      "role_b": "0x960c97778Ee734ac6A8050bd677fC51b8bf33559",
+      "role_c": "0xB39c04eAC2C9E13280e76bCe7e6D59D3f1863dFA",
+      "role_d": "0x2CB78B535cA6068B1A97EdAB5A548F7FFA8037a5",
+      "role_e": "0xec23717414e254E2747757d5F477F6Cf4abc0A84"
+    },
+    "workspace_wallet_used": false
+  }
+}
